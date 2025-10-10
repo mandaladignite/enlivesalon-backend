@@ -1,0 +1,1 @@
+export const DB_NAME = "enlive_db"
