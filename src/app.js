@@ -13,6 +13,7 @@ import profileRoutes from "./routes/profile.route.js"
 import addressRoutes from "./routes/address.route.js"
 import galleryRoutes from "./routes/gallery.route.js"
 import enquiryRoutes from "./routes/enquiry.route.js"
+import reviewRoutes from "./routes/review.route.js"
 import adminRoutes from "./routes/admin.route.js"
 import healthRoutes from "./routes/health.route.js"
 import { errorHandler } from "./middleware/errorHandler.middleware.js"
@@ -111,6 +112,7 @@ app.use("/profile", profileRoutes)
 app.use("/addresses", addressRoutes)
 app.use("/gallery", galleryRoutes)
 app.use("/enquiries", enquiryRoutes)
+app.use("/reviews", reviewRoutes)
 app.use("/admin", adminRoutes)
 app.use("/api", healthRoutes)
 
