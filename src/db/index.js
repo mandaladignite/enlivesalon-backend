@@ -2,10 +2,7 @@ import mongoose from "mongoose";
 
 const connectDB = async () => {
     try {
-        const conn = await mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/enlive_db", {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-        });
+        const conn = await mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/enlive_db");
 
         console.log(`MongoDB Connected: ${conn.connection.host}`);
         return conn;

@@ -41,6 +41,9 @@ const allowedOrigins = [
     process.env.CORS_ORIGIN,
     process.env.CORS_ORIGIN_ALT, // Alternative production domain
     "http://localhost:3000", // Local development
+    "http://localhost:3001", // Alternative local development
+    "http://127.0.0.1:3000", // Local development alternative
+    "http://127.0.0.1:3001", // Local development alternative
 ];
 
 app.use(cors({
@@ -48,9 +51,18 @@ app.use(cors({
         // Allow requests with no origin (like mobile apps or curl requests)
         if (!origin) return callback(null, true);
         
+        // In development, be more permissive
+        if (process.env.NODE_ENV === 'development') {
+            // Allow any localhost origin in development
+            if (origin.includes('localhost') || origin.includes('127.0.0.1')) {
+                return callback(null, true);
+            }
+        }
+        
         if (allowedOrigins.includes(origin)) {
             callback(null, true);
         } else {
+            console.log(`CORS blocked origin: ${origin}`);
             callback(new Error("Not allowed by CORS"));
         }
     },

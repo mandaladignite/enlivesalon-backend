@@ -1,65 +1,24 @@
-import express from 'express';
-import mongoose from 'mongoose';
+import express from "express";
+import { getHealthStatus, getDetailedHealthStatus } from "../utils/healthCheck.js";
+import { clearAllRateLimits, getRateLimitStatus } from "../middleware/security.middleware.js";
 
 const router = express.Router();
 
-// Health check endpoint
-router.get('/health', (req, res) => {
-    const healthChecks = global.healthChecks;
-    
-    if (!healthChecks) {
-        return res.status(503).json({
-            status: 'error',
-            message: 'Health checks not initialized'
-        });
-    }
+// Basic health check
+router.get("/", getHealthStatus);
 
-    const dbStatus = healthChecks.checkDatabase();
-    const memory = healthChecks.checkMemory();
-    const uptime = healthChecks.getUptime();
+// Detailed health check
+router.get("/detailed", getDetailedHealthStatus);
 
-    res.status(200).json({
-        status: 'ok',
-        timestamp: new Date().toISOString(),
-        uptime,
-        database: dbStatus ? 'connected' : 'disconnected',
-        memory,
-        environment: process.env.NODE_ENV || 'development'
+// Development endpoint to clear rate limits
+router.post("/clear-rate-limits", clearAllRateLimits, (req, res) => {
+    res.json({
+        success: true,
+        message: "Rate limits cleared successfully"
     });
 });
 
-// Detailed system status
-router.get('/status', (req, res) => {
-    const healthChecks = global.healthChecks;
-    
-    if (!healthChecks) {
-        return res.status(503).json({
-            status: 'error',
-            message: 'Health checks not initialized'
-        });
-    }
-
-    const dbStatus = healthChecks.checkDatabase();
-    const memory = healthChecks.checkMemory();
-    const uptime = healthChecks.getUptime();
-
-    res.status(200).json({
-        status: dbStatus ? 'healthy' : 'unhealthy',
-        timestamp: new Date().toISOString(),
-        services: {
-            database: {
-                status: dbStatus ? 'up' : 'down',
-                connection: mongoose.connection.readyState
-            },
-            server: {
-                status: 'up',
-                uptime,
-                memory,
-                pid: process.pid,
-                version: process.version
-            }
-        }
-    });
-});
+// Development endpoint to check rate limit status
+router.get("/rate-limit-status", getRateLimitStatus);
 
 export default router;
