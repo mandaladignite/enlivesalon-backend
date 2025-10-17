@@ -69,6 +69,20 @@ const stylistSchema = new mongoose.Schema({
     isActive: {
         type: Boolean,
         default: true
+    },
+    image: {
+        public_id: {
+            type: String,
+            trim: true
+        },
+        secure_url: {
+            type: String,
+            trim: true
+        },
+        url: {
+            type: String,
+            trim: true
+        }
     }
 }, {
     timestamps: true

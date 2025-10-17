@@ -11,6 +11,8 @@ import {
     getStylistStats 
 } from "../controllers/stylist.controller.js";
 import { verifyJWT, adminOnly } from "../middleware/auth.middleware.js";
+import { uploadSingle } from "../middleware/upload.middleware.js";
+import { parseFormData } from "../middleware/formDataParser.middleware.js";
 import { body, param, query } from "express-validator";
 import { validate } from "../middleware/validation.middleware.js";
 
@@ -123,6 +125,8 @@ router.post(
     ],
     validate,
     adminOnly,
+    uploadSingle('image'),
+    parseFormData,
     createStylist
 );
 
@@ -192,6 +196,8 @@ router.put(
     ],
     validate,
     adminOnly,
+    uploadSingle('image'),
+    parseFormData,
     updateStylist
 );
 

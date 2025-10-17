@@ -1,2 +1,2 @@
-export const DB_NAME = "enlive_db";
+export const DB_NAME = "enlive-salon";
 export const MONGODB_URI = process.env.MONGODB_URI || `mongodb://localhost:27017/${DB_NAME}`;

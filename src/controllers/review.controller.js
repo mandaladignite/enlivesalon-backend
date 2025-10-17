@@ -8,12 +8,17 @@ import { uploadToCloudinary, deleteFromCloudinary } from '../utils/cloudinary.js
 // @route   GET /api/reviews
 // @access  Public
 const getAllReviews = asyncHandler(async (req, res) => {
-  const { isActive = true, isFeatured, limit = 10, page = 1 } = req.query;
+  const { isActive = true, isFeatured, limit = 10, page = 1, service } = req.query;
   
   // Build filter object
   const filter = {};
   if (isActive !== undefined) filter.isActive = isActive === 'true';
   if (isFeatured !== undefined) filter.isFeatured = isFeatured === 'true';
+  
+  // Add service filtering if provided
+  if (service) {
+    filter.service = { $regex: service, $options: 'i' };
+  }
   
   // Calculate pagination
   const skip = (parseInt(page) - 1) * parseInt(limit);

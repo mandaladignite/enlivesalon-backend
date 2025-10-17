@@ -2,6 +2,7 @@ import { Stylist } from "../models/stylist.model.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
 import { ApiError } from "../utils/ApiError.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
+import { uploadToCloudinary, deleteFromCloudinary, validateImageFile } from "../utils/cloudinary.js";
 
 // Get all stylists (Public)
 export const getAllStylists = asyncHandler(async (req, res) => {
@@ -65,6 +66,26 @@ export const createStylist = asyncHandler(async (req, res) => {
         availableForSalon
     } = req.body;
 
+    let imageData = null;
+
+    // Handle image upload if provided
+    if (req.file) {
+        try {
+            validateImageFile(req.file);
+            const uploadResult = await uploadToCloudinary(req.file, {
+                folder: 'salon-stylists',
+                category: 'profile'
+            });
+            imageData = {
+                public_id: uploadResult.public_id,
+                secure_url: uploadResult.secure_url,
+                url: uploadResult.url
+            };
+        } catch (error) {
+            throw new ApiError(400, `Image upload failed: ${error.message}`);
+        }
+    }
+
     // Check if stylist with same email already exists
     const existingStylist = await Stylist.findOne({ email: { $regex: new RegExp(`^${email}$`, 'i') } });
     if (existingStylist) {
@@ -97,7 +118,8 @@ export const createStylist = asyncHandler(async (req, res) => {
         workingHours: workingHours || { start: '09:00', end: '18:00' },
         workingDays: workingDays || ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'],
         availableForHome: availableForHome || false,
-        availableForSalon: availableForSalon !== undefined ? availableForSalon : true
+        availableForSalon: availableForSalon !== undefined ? availableForSalon : true,
+        image: imageData
     });
 
     res.status(201).json(
@@ -145,6 +167,36 @@ export const updateStylist = asyncHandler(async (req, res) => {
         throw new ApiError(400, "At least one working day is required");
     }
 
+    // Handle image upload if provided
+    if (req.file) {
+        try {
+            validateImageFile(req.file);
+            
+            // Delete old image if exists
+            if (stylist.image && stylist.image.public_id) {
+                try {
+                    await deleteFromCloudinary(stylist.image.public_id);
+                } catch (deleteError) {
+                    console.warn('Failed to delete old image:', deleteError.message);
+                }
+            }
+            
+            // Upload new image
+            const uploadResult = await uploadToCloudinary(req.file, {
+                folder: 'salon-stylists',
+                category: 'profile'
+            });
+            
+            updateData.image = {
+                public_id: uploadResult.public_id,
+                secure_url: uploadResult.secure_url,
+                url: uploadResult.url
+            };
+        } catch (error) {
+            throw new ApiError(400, `Image upload failed: ${error.message}`);
+        }
+    }
+
     const updatedStylist = await Stylist.findByIdAndUpdate(
         stylistId,
         updateData,
@@ -160,11 +212,21 @@ export const updateStylist = asyncHandler(async (req, res) => {
 export const deleteStylist = asyncHandler(async (req, res) => {
     const { stylistId } = req.params;
 
-    const stylist = await Stylist.findByIdAndDelete(stylistId);
-
+    const stylist = await Stylist.findById(stylistId);
     if (!stylist) {
         throw new ApiError(404, "Stylist not found");
     }
+
+    // Delete image from Cloudinary if exists
+    if (stylist.image && stylist.image.public_id) {
+        try {
+            await deleteFromCloudinary(stylist.image.public_id);
+        } catch (deleteError) {
+            console.warn('Failed to delete image from Cloudinary:', deleteError.message);
+        }
+    }
+
+    await Stylist.findByIdAndDelete(stylistId);
 
     res.status(200).json(
         new ApiResponse(200, null, "Stylist deleted successfully")
