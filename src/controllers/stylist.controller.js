@@ -86,26 +86,7 @@ export const createStylist = asyncHandler(async (req, res) => {
         }
     }
 
-    // Check if stylist with same email already exists
-    const existingStylist = await Stylist.findOne({ email: { $regex: new RegExp(`^${email}$`, 'i') } });
-    if (existingStylist) {
-        throw new ApiError(400, "Stylist with this email already exists");
-    }
-
-    // Validate working hours
-    if (workingHours && workingHours.start && workingHours.end) {
-        const startTime = new Date(`2000-01-01T${workingHours.start}:00`);
-        const endTime = new Date(`2000-01-01T${workingHours.end}:00`);
-        
-        if (startTime >= endTime) {
-            throw new ApiError(400, "Working start time must be before end time");
-        }
-    }
-
-    // Validate working days
-    if (workingDays && workingDays.length === 0) {
-        throw new ApiError(400, "At least one working day is required");
-    }
+    // Relaxed: skip unique email enforcement and strict working hours/days validation
 
     const stylist = await Stylist.create({
         name,
@@ -139,33 +120,7 @@ export const updateStylist = asyncHandler(async (req, res) => {
     }
 
     // Check if email is being updated and if it conflicts with existing stylist
-    if (updateData.email && updateData.email !== stylist.email) {
-        const existingStylist = await Stylist.findOne({ 
-            email: { $regex: new RegExp(`^${updateData.email}$`, 'i') },
-            _id: { $ne: stylistId }
-        });
-        if (existingStylist) {
-            throw new ApiError(400, "Stylist with this email already exists");
-        }
-    }
-
-    // Validate working hours if being updated
-    if (updateData.workingHours) {
-        const { start, end } = updateData.workingHours;
-        if (start && end) {
-            const startTime = new Date(`2000-01-01T${start}:00`);
-            const endTime = new Date(`2000-01-01T${end}:00`);
-            
-            if (startTime >= endTime) {
-                throw new ApiError(400, "Working start time must be before end time");
-            }
-        }
-    }
-
-    // Validate working days if being updated
-    if (updateData.workingDays && updateData.workingDays.length === 0) {
-        throw new ApiError(400, "At least one working day is required");
-    }
+    // Relaxed: skip unique email enforcement and strict working hours/days validation
 
     // Handle image upload if provided
     if (req.file) {

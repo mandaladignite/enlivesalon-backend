@@ -68,62 +68,7 @@ router.use(verifyJWT);
 // Create stylist (Admin only)
 router.post(
     "/",
-    [
-        body("name")
-            .isLength({ min: 1, max: 50 })
-            .withMessage("Stylist name is required and cannot exceed 50 characters"),
-        body("email")
-            .isEmail()
-            .withMessage("Valid email is required"),
-        body("phone")
-            .isLength({ min: 1, max: 15 })
-            .withMessage("Phone number is required and cannot exceed 15 characters"),
-        body("specialties")
-            .optional()
-            .isArray()
-            .withMessage("Specialties must be an array"),
-        body("specialties.*")
-            .optional()
-            .isIn(["hair", "nails", "skincare", "massage", "makeup", "other"])
-            .withMessage("Invalid specialty"),
-        body("experience")
-            .optional()
-            .isInt({ min: 0 })
-            .withMessage("Experience must be a non-negative integer"),
-        body("rating")
-            .optional()
-            .isFloat({ min: 0, max: 5 })
-            .withMessage("Rating must be between 0 and 5"),
-        body("bio")
-            .optional()
-            .isLength({ max: 500 })
-            .withMessage("Bio cannot exceed 500 characters"),
-        body("workingHours.start")
-            .optional()
-            .matches(/^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$/)
-            .withMessage("Working start time must be in HH:MM format"),
-        body("workingHours.end")
-            .optional()
-            .matches(/^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$/)
-            .withMessage("Working end time must be in HH:MM format"),
-        body("workingDays")
-            .optional()
-            .isArray({ min: 1 })
-            .withMessage("At least one working day is required"),
-        body("workingDays.*")
-            .optional()
-            .isIn(["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"])
-            .withMessage("Invalid working day"),
-        body("availableForHome")
-            .optional()
-            .isBoolean()
-            .withMessage("availableForHome must be a boolean"),
-        body("availableForSalon")
-            .optional()
-            .isBoolean()
-            .withMessage("availableForSalon must be a boolean")
-    ],
-    validate,
+    [],
     adminOnly,
     uploadSingle('image'),
     parseFormData,
@@ -136,65 +81,8 @@ router.put(
     [
         param("stylistId")
             .isMongoId()
-            .withMessage("Valid stylist ID is required"),
-        body("name")
-            .optional()
-            .isLength({ min: 1, max: 50 })
-            .withMessage("Stylist name cannot exceed 50 characters"),
-        body("email")
-            .optional()
-            .isEmail()
-            .withMessage("Valid email is required"),
-        body("phone")
-            .optional()
-            .isLength({ min: 1, max: 15 })
-            .withMessage("Phone number cannot exceed 15 characters"),
-        body("specialties")
-            .optional()
-            .isArray()
-            .withMessage("Specialties must be an array"),
-        body("specialties.*")
-            .optional()
-            .isIn(["hair", "nails", "skincare", "massage", "makeup", "other"])
-            .withMessage("Invalid specialty"),
-        body("experience")
-            .optional()
-            .isInt({ min: 0 })
-            .withMessage("Experience must be a non-negative integer"),
-        body("rating")
-            .optional()
-            .isFloat({ min: 0, max: 5 })
-            .withMessage("Rating must be between 0 and 5"),
-        body("bio")
-            .optional()
-            .isLength({ max: 500 })
-            .withMessage("Bio cannot exceed 500 characters"),
-        body("workingHours.start")
-            .optional()
-            .matches(/^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$/)
-            .withMessage("Working start time must be in HH:MM format"),
-        body("workingHours.end")
-            .optional()
-            .matches(/^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$/)
-            .withMessage("Working end time must be in HH:MM format"),
-        body("workingDays")
-            .optional()
-            .isArray({ min: 1 })
-            .withMessage("At least one working day is required"),
-        body("workingDays.*")
-            .optional()
-            .isIn(["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"])
-            .withMessage("Invalid working day"),
-        body("availableForHome")
-            .optional()
-            .isBoolean()
-            .withMessage("availableForHome must be a boolean"),
-        body("availableForSalon")
-            .optional()
-            .isBoolean()
-            .withMessage("availableForSalon must be a boolean")
+            .withMessage("Valid stylist ID is required")
     ],
-    validate,
     adminOnly,
     uploadSingle('image'),
     parseFormData,
