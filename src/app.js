@@ -14,6 +14,7 @@ import addressRoutes from "./routes/address.route.js"
 import galleryRoutes from "./routes/gallery.route.js"
 import enquiryRoutes from "./routes/enquiry.route.js"
 import reviewRoutes from "./routes/review.route.js"
+import offerRoutes from "./routes/offer.route.js"
 import adminRoutes from "./routes/admin.route.js"
 import healthRoutes from "./routes/health.route.js"
 import { errorHandler } from "./middleware/errorHandler.middleware.js"
@@ -41,10 +42,7 @@ app.use(compression())
 const allowedOrigins = [
     process.env.CORS_ORIGIN,
     process.env.CORS_ORIGIN_ALT, // Alternative production domain
-    "http://localhost:3000", // Local development
-    "http://localhost:3001", // Alternative local development
-    "http://127.0.0.1:3000", // Local development alternative
-    "http://127.0.0.1:3001", // Local development alternative
+   // Local development alternative
 ];
 
 app.use(cors({
@@ -113,6 +111,7 @@ app.use("/api/addresses", addressRoutes)
 app.use("/api/gallery", galleryRoutes)
 app.use("/api/enquiries", enquiryRoutes)
 app.use("/api/reviews", reviewRoutes)
+app.use("/api/offers", offerRoutes)
 app.use("/api/admin", adminRoutes)
 app.use("/api/health", healthRoutes)
 

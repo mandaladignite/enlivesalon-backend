@@ -8,7 +8,7 @@ export const verifyJWT = async (req, res, next) => {
         const token = req.cookies?.accessToken || req.header("Authorization")?.replace("Bearer ", "");
 
         if (!token) {
-            throw new ApiError(401, "Unauthorized request");
+            return next(new ApiError(401, "Unauthorized request"));
         }
 
         const decodedToken = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET);
@@ -16,11 +16,11 @@ export const verifyJWT = async (req, res, next) => {
         const user = await User.findById(decodedToken._id).select("-password -refreshToken");
 
         if (!user) {
-            throw new ApiError(401, "Invalid access token");
+            return next(new ApiError(401, "Invalid access token"));
         }
 
         if (!user.isActive) {
-            throw new ApiError(403, "User account is deactivated");
+            return next(new ApiError(403, "User account is deactivated"));
         }
 
         req.user = user;
@@ -28,13 +28,13 @@ export const verifyJWT = async (req, res, next) => {
     } catch (error) {
         // Provide more specific error messages
         if (error.name === 'JsonWebTokenError') {
-            throw new ApiError(401, "Invalid token format");
+            return next(new ApiError(401, "Invalid token format"));
         } else if (error.name === 'TokenExpiredError') {
-            throw new ApiError(401, "Token expired");
+            return next(new ApiError(401, "Token expired"));
         } else if (error instanceof ApiError) {
-            throw error;
+            return next(error);
         } else {
-            throw new ApiError(401, "Invalid access token");
+            return next(new ApiError(401, "Invalid access token"));
         }
     }
 };
@@ -43,11 +43,11 @@ export const verifyJWT = async (req, res, next) => {
 export const authorize = (...roles) => {
     return (req, res, next) => {
         if (!req.user) {
-            throw new ApiError(401, "Authentication required");
+            return next(new ApiError(401, "Authentication required"));
         }
 
         if (!roles.includes(req.user.role)) {
-            throw new ApiError(403, "You do not have permission to access this resource");
+            return next(new ApiError(403, "You do not have permission to access this resource"));
         }
 
         next();
