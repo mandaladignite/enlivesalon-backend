@@ -41,7 +41,7 @@ app.use(compression())
 // CORS configuration
 const allowedOrigins = [
     process.env.CORS_ORIGIN,
-    process.env.CORS_ORIGIN_ALT, // Alternative production domain
+    process.env.CORS_ORIGIN_ADMIN, // Alternative production domain
    // Local development alternative
 ];
 
