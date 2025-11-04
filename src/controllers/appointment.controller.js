@@ -3,6 +3,7 @@ import { Appointment } from "../models/appointment.model.js";
 import { Service } from "../models/service.model.js";
 import { Stylist } from "../models/stylist.model.js";
 import { User } from "../models/user.model.js";
+import { Offer } from "../models/offer.model.js";
 import { ApiError } from "../utils/ApiError.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
@@ -20,7 +21,8 @@ export const createAppointment = asyncHandler(async (req, res) => {
         location, 
         notes, 
         address, 
-        specialInstructions 
+        specialInstructions,
+        offerCode
     } = req.body;
     const userId = req.user._id;
 
@@ -181,6 +183,43 @@ export const createAppointment = asyncHandler(async (req, res) => {
                 totalPrice = Math.max(0, service.price - discountAmount);
             }
         }
+
+        // Apply offer code discount if provided
+        let appliedOffer = null;
+        let offerDiscountAmount = 0;
+        
+        if (offerCode) {
+            // Find and validate offer
+            const offer = await Offer.findOne({ code: offerCode.toUpperCase() }).session(session);
+            
+            if (!offer) {
+                throw new ApiError(400, "Invalid offer code");
+            }
+
+            // Check if offer is valid
+            if (!offer.isValid) {
+                throw new ApiError(400, "Offer is not currently valid");
+            }
+
+            // Validate offer can be applied
+            const serviceIds = [serviceId];
+            const category = service.category;
+            const validation = offer.canBeApplied(totalPrice, serviceIds, category);
+            
+            if (!validation.canApply) {
+                throw new ApiError(400, validation.reason || "Offer cannot be applied to this booking");
+            }
+
+            // Calculate offer discount
+            offerDiscountAmount = offer.calculateDiscount(totalPrice);
+            totalPrice = Math.max(0, totalPrice - offerDiscountAmount);
+            
+            appliedOffer = offer;
+
+            // Increment offer usage count
+            offer.usedCount += 1;
+            await offer.save({ session });
+        }
         
         if (totalPrice < 0) {
             throw new ApiError(400, "Invalid service price");
@@ -198,7 +237,9 @@ export const createAppointment = asyncHandler(async (req, res) => {
             specialInstructions: specialInstructions?.trim() || '',
             address: location === "home" ? address : undefined,
             totalPrice,
-            estimatedDuration: service.duration
+            estimatedDuration: service.duration,
+            offerCode: appliedOffer ? appliedOffer.code : undefined,
+            offerDiscount: offerDiscountAmount > 0 ? offerDiscountAmount : undefined
         };
 
         const appointment = await Appointment.create([appointmentData], { session });

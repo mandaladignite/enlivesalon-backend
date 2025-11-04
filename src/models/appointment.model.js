@@ -91,6 +91,18 @@ const appointmentSchema = new mongoose.Schema({
         trim: true,
         maxLength: [1000, "Special instructions cannot exceed 1000 characters"]
     },
+    // Offer code and discount
+    offerCode: {
+        type: String,
+        trim: true,
+        uppercase: true,
+        required: false
+    },
+    offerDiscount: {
+        type: Number,
+        min: [0, "Offer discount cannot be negative"],
+        required: false
+    },
     // Status tracking
     statusHistory: [{
         status: {
