@@ -36,12 +36,20 @@ router.get(
             .withMessage("Invalid category"),
         query("isActive")
             .optional()
-            .isBoolean()
-            .withMessage("isActive must be a boolean"),
+            .custom((value) => {
+                if (value === 'true' || value === 'false' || value === true || value === false) {
+                    return true;
+                }
+                throw new Error('isActive must be a boolean');
+            }),
         query("isFeatured")
             .optional()
-            .isBoolean()
-            .withMessage("isFeatured must be a boolean"),
+            .custom((value) => {
+                if (value === 'true' || value === 'false' || value === true || value === false) {
+                    return true;
+                }
+                throw new Error('isFeatured must be a boolean');
+            }),
         query("page")
             .optional()
             .isInt({ min: 1 })
@@ -350,20 +358,36 @@ router.get(
             .withMessage("Subcategory must be a string"),
         query("isActive")
             .optional()
-            .isBoolean()
-            .withMessage("isActive must be a boolean"),
+            .custom((value) => {
+                if (value === 'true' || value === 'false' || value === true || value === false) {
+                    return true;
+                }
+                throw new Error('isActive must be a boolean');
+            }),
         query("isFeatured")
             .optional()
-            .isBoolean()
-            .withMessage("isFeatured must be a boolean"),
+            .custom((value) => {
+                if (value === 'true' || value === 'false' || value === true || value === false) {
+                    return true;
+                }
+                throw new Error('isFeatured must be a boolean');
+            }),
         query("availableAtHome")
             .optional()
-            .isBoolean()
-            .withMessage("availableAtHome must be a boolean"),
+            .custom((value) => {
+                if (value === 'true' || value === 'false' || value === true || value === false) {
+                    return true;
+                }
+                throw new Error('availableAtHome must be a boolean');
+            }),
         query("availableAtSalon")
             .optional()
-            .isBoolean()
-            .withMessage("availableAtSalon must be a boolean"),
+            .custom((value) => {
+                if (value === 'true' || value === 'false' || value === true || value === false) {
+                    return true;
+                }
+                throw new Error('availableAtSalon must be a boolean');
+            }),
         query("search")
             .optional()
             .isString()
