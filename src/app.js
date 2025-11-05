@@ -33,8 +33,21 @@ const app = express()
 // Trust proxy for accurate IP addresses behind reverse proxy
 app.set('trust proxy', 1)
 
-// Security middleware
-app.use(helmet())
+// Security middleware - configure helmet to not interfere with CORS
+app.use(helmet({
+    crossOriginResourcePolicy: { policy: "cross-origin" },
+    crossOriginEmbedderPolicy: false,
+    contentSecurityPolicy: {
+        directives: {
+            defaultSrc: ["'self'"],
+            scriptSrc: ["'self'", "'unsafe-inline'", "https://checkout.razorpay.com"],
+            styleSrc: ["'self'", "'unsafe-inline'"],
+            imgSrc: ["'self'", "data:", "https:", "blob:"],
+            connectSrc: ["'self'", "https://api.razorpay.com", "https://api.cloudinary.com"],
+            frameSrc: ["https://checkout.razorpay.com"],
+        },
+    },
+}))
 
 // Compression middleware
 app.use(compression())
@@ -68,24 +81,67 @@ app.use(cors({
         
         // Check if origin is in allowed list
         if (allowedOrigins.includes(origin)) {
+            if (process.env.NODE_ENV === 'development') {
+                console.log(`CORS: Allowing origin from allowed list: ${origin}`);
+            }
             callback(null, true);
         } else {
             // Also check if it's a subdomain of enlivesalon.com
             if (origin.includes('enlivesalon.com')) {
+                if (process.env.NODE_ENV === 'development') {
+                    console.log(`CORS: Allowing origin from enlivesalon.com domain: ${origin}`);
+                }
                 callback(null, true);
             } else {
-                console.log(`CORS blocked origin: ${origin}`);
-                console.log(`Allowed origins: ${allowedOrigins.join(', ')}`);
+                console.error(`[CORS ERROR] Blocked origin: ${origin}`);
+                console.error(`[CORS ERROR] Allowed origins: ${allowedOrigins.join(', ')}`);
                 callback(new Error("Not allowed by CORS"));
             }
         }
     },
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin'],
+    allowedHeaders: [
+        'Content-Type', 
+        'Authorization', 
+        'X-Requested-With', 
+        'Accept', 
+        'Origin',
+        'Content-Length',
+        'X-File-Name',
+        'X-File-Size',
+        'X-File-Type'
+    ],
     exposedHeaders: ['Content-Range', 'X-Content-Range'],
-    maxAge: 86400 // 24 hours
+    maxAge: 86400, // 24 hours
+    preflightContinue: false,
+    optionsSuccessStatus: 204
 }));
+
+// Handle preflight OPTIONS requests explicitly for all routes
+app.options('*', (req, res) => {
+    const origin = req.headers.origin;
+    
+    // Check if origin is allowed
+    if (!origin) {
+        return res.status(204).end();
+    }
+    
+    // Allow if it's in allowed origins or enlivesalon.com domain
+    const isAllowed = allowedOrigins.includes(origin) || 
+                     origin.includes('enlivesalon.com') ||
+                     (process.env.NODE_ENV === 'development' && origin.includes('localhost'));
+    
+    if (isAllowed) {
+        res.header('Access-Control-Allow-Origin', origin);
+        res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
+        res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With, Accept, Origin, Content-Length');
+        res.header('Access-Control-Allow-Credentials', 'true');
+        res.header('Access-Control-Max-Age', '86400');
+    }
+    
+    res.status(204).end();
+});
 
 // Handle JSON parsing for non-file upload routes
 app.use((req, res, next) => {
