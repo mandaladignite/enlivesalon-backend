@@ -15,6 +15,7 @@ import galleryRoutes from "./routes/gallery.route.js"
 import enquiryRoutes from "./routes/enquiry.route.js"
 import reviewRoutes from "./routes/review.route.js"
 import offerRoutes from "./routes/offer.route.js"
+import heroRoutes from "./routes/hero.route.js"
 import adminRoutes from "./routes/admin.route.js"
 import healthRoutes from "./routes/health.route.js"
 import { errorHandler } from "./middleware/errorHandler.middleware.js"
@@ -112,6 +113,7 @@ app.use("/api/gallery", galleryRoutes)
 app.use("/api/enquiries", enquiryRoutes)
 app.use("/api/reviews", reviewRoutes)
 app.use("/api/offers", offerRoutes)
+app.use("/api/hero", heroRoutes)
 app.use("/api/admin", adminRoutes)
 app.use("/api/health", healthRoutes)
 
