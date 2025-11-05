@@ -23,7 +23,7 @@ const fileFilter = (req, file, cb) => {
 const upload = multer({
     storage: storage,
     limits: {
-        fileSize: 10 * 1024 * 1024, // 10MB limit
+        fileSize: 20 * 1024 * 1024, // 20MB limit (increased for hero banner images)
         files: 10 // Maximum 10 files per request
     },
     fileFilter: fileFilter
@@ -41,7 +41,7 @@ export const uploadSingle = (fieldName = 'image') => {
             
             if (err instanceof multer.MulterError) {
                 if (err.code === 'LIMIT_FILE_SIZE') {
-                    return next(new ApiError(400, 'File too large. Maximum size is 10MB'));
+                    return next(new ApiError(400, 'File too large. Maximum size is 20MB'));
                 }
                 if (err.code === 'LIMIT_FILE_COUNT') {
                     return next(new ApiError(400, 'Too many files. Maximum is 10 files'));
@@ -78,7 +78,7 @@ export const uploadMultiple = (fieldName = 'images', maxCount = 10) => {
             
             if (err instanceof multer.MulterError) {
                 if (err.code === 'LIMIT_FILE_SIZE') {
-                    return next(new ApiError(400, 'File too large. Maximum size is 10MB'));
+                    return next(new ApiError(400, 'File too large. Maximum size is 20MB'));
                 }
                 if (err.code === 'LIMIT_FILE_COUNT') {
                     return next(new ApiError(400, `Too many files. Maximum is ${maxCount} files`));
@@ -116,7 +116,7 @@ export const uploadFields = (fields) => {
         uploadHandler(req, res, async (err) => {
             if (err instanceof multer.MulterError) {
                 if (err.code === 'LIMIT_FILE_SIZE') {
-                    return next(new ApiError(400, 'File too large. Maximum size is 10MB'));
+                    return next(new ApiError(400, 'File too large. Maximum size is 20MB'));
                 }
                 if (err.code === 'LIMIT_FILE_COUNT') {
                     return next(new ApiError(400, 'Too many files uploaded'));

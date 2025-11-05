@@ -272,7 +272,7 @@ export const validateCloudinaryConfig = () => {
 // Validate image file
 export const validateImageFile = (file) => {
     const allowedTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif', 'image/webp'];
-    const maxSize = 10 * 1024 * 1024; // 10MB
+    const maxSize = 20 * 1024 * 1024; // 20MB (increased for hero banner images)
 
     if (!file) {
         throw new ApiError(400, 'No file provided');
@@ -283,7 +283,7 @@ export const validateImageFile = (file) => {
     }
 
     if (file.size > maxSize) {
-        throw new ApiError(400, 'File size too large. Maximum size is 10MB');
+        throw new ApiError(400, 'File size too large. Maximum size is 20MB');
     }
 
     return true;

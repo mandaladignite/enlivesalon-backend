@@ -42,9 +42,16 @@ app.use(compression())
 // CORS configuration
 const allowedOrigins = [
     process.env.CORS_ORIGIN,
-    process.env.CORS_ORIGIN_ADMIN, // Alternative production domain
-   // Local development alternative
-];
+    process.env.CORS_ORIGIN_ADMIN,
+    'https://admin.enlivesalon.com',
+    'https://www.enlivesalon.com',
+    'https://enlivesalon.com',
+    // Local development alternatives
+    'http://localhost:3000',
+    'http://localhost:3001',
+    'http://localhost:8000',
+    'http://localhost:8001'
+].filter(Boolean); // Remove undefined values
 
 app.use(cors({
     origin: function (origin, callback) {
@@ -59,17 +66,25 @@ app.use(cors({
             }
         }
         
+        // Check if origin is in allowed list
         if (allowedOrigins.includes(origin)) {
             callback(null, true);
         } else {
-            console.log(`CORS blocked origin: ${origin}`);
-            callback(new Error("Not allowed by CORS"));
+            // Also check if it's a subdomain of enlivesalon.com
+            if (origin.includes('enlivesalon.com')) {
+                callback(null, true);
+            } else {
+                console.log(`CORS blocked origin: ${origin}`);
+                console.log(`Allowed origins: ${allowedOrigins.join(', ')}`);
+                callback(new Error("Not allowed by CORS"));
+            }
         }
     },
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin'],
-    exposedHeaders: ['Content-Range', 'X-Content-Range']
+    exposedHeaders: ['Content-Range', 'X-Content-Range'],
+    maxAge: 86400 // 24 hours
 }));
 
 // Handle JSON parsing for non-file upload routes
@@ -87,10 +102,10 @@ app.use((req, res, next) => {
     }
     
     // Apply JSON parsing for other routes
-    express.json({limit: "50mb"})(req, res, next);
+    express.json({limit: "100mb"})(req, res, next);
 })
 
-app.use(express.urlencoded({extended: true, limit: "50mb"}))
+app.use(express.urlencoded({extended: true, limit: "100mb"}))
 app.use(express.static("public"))
 app.use(cookieParser())
 
