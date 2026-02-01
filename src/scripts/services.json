@@ -1,0 +1,5164 @@
+[
+  {
+    "_id": "68fb4f6f8ca57f6923af1711",
+    "name": "Eyebrows",
+    "description": "Professional eyebrow threading service",
+    "duration": 15,
+    "price": 80,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Threading",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "threading"
+    ],
+    "sortOrder": 1,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.490Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.630Z",
+    "updatedAt": "2025-10-24T10:05:35.630Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1715",
+    "name": "Lower Lips",
+    "description": "Lower lip threading service",
+    "duration": 15,
+    "price": 70,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Threading",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "threading"
+    ],
+    "sortOrder": 5,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.490Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.632Z",
+    "updatedAt": "2025-10-24T10:05:35.632Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1716",
+    "name": "Neck",
+    "description": "Neck threading service",
+    "duration": 15,
+    "price": 100,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Threading",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "threading"
+    ],
+    "sortOrder": 6,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.490Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.632Z",
+    "updatedAt": "2025-10-24T10:05:35.632Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1718",
+    "name": "Chick",
+    "description": "Chick threading service",
+    "duration": 15,
+    "price": 100,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Threading",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "threading"
+    ],
+    "sortOrder": 8,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.490Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.632Z",
+    "updatedAt": "2025-10-24T10:05:35.632Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1719",
+    "name": "Male (Arms/Legs /Front/Back)",
+    "description": "Complete male body waxing service",
+    "duration": 60,
+    "price": 4000,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Roll On Wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "roll on wax"
+    ],
+    "sortOrder": 9,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.490Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.632Z",
+    "updatedAt": "2025-10-24T10:05:35.632Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af171b",
+    "name": "Male Arms/Legs",
+    "description": "Male arms and legs waxing",
+    "duration": 45,
+    "price": 2000,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Roll On Wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "roll on wax"
+    ],
+    "sortOrder": 11,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.632Z",
+    "updatedAt": "2025-10-24T10:05:35.632Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af171c",
+    "name": "Under Arms",
+    "description": "Underarm honey waxing",
+    "duration": 15,
+    "price": 200,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Honey Wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "honey wax"
+    ],
+    "sortOrder": 12,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.632Z",
+    "updatedAt": "2025-10-24T10:05:35.632Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af171f",
+    "name": "Back/ Front",
+    "description": "Back and front honey waxing",
+    "duration": 30,
+    "price": 650,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Honey Wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "honey wax"
+    ],
+    "sortOrder": 15,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.632Z",
+    "updatedAt": "2025-10-24T10:05:35.632Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1720",
+    "name": "Half legs",
+    "description": "Half leg honey waxing",
+    "duration": 20,
+    "price": 450,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Honey Wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "honey wax"
+    ],
+    "sortOrder": 16,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.633Z",
+    "updatedAt": "2025-10-24T10:05:35.633Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1722",
+    "name": "Under Arms",
+    "description": "Underarm Rica waxing",
+    "duration": 15,
+    "price": 250,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Rica Wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "rica wax"
+    ],
+    "sortOrder": 18,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.633Z",
+    "updatedAt": "2025-10-24T10:05:35.633Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1725",
+    "name": "Half legs",
+    "description": "Half leg Rica waxing",
+    "duration": 20,
+    "price": 550,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Rica Wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "rica wax"
+    ],
+    "sortOrder": 21,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.633Z",
+    "updatedAt": "2025-10-24T10:05:35.633Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1727",
+    "name": "Under Arms",
+    "description": "Underarm stripless waxing",
+    "duration": 15,
+    "price": 300,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Stripless wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "stripless wax"
+    ],
+    "sortOrder": 23,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.633Z",
+    "updatedAt": "2025-10-24T10:05:35.633Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1728",
+    "name": "Upperlis/chin/",
+    "description": "Upper lip and chin stripless waxing",
+    "duration": 15,
+    "price": 200,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Stripless wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "stripless wax"
+    ],
+    "sortOrder": 24,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.633Z",
+    "updatedAt": "2025-10-24T10:05:35.633Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1729",
+    "name": "chick/Neck/Sidelock",
+    "description": "Chick, neck and side lock stripless waxing",
+    "duration": 15,
+    "price": 300,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Stripless wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "stripless wax"
+    ],
+    "sortOrder": 25,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.633Z",
+    "updatedAt": "2025-10-24T10:05:35.633Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af173a",
+    "name": "Beard Trim",
+    "description": "Beard trimming service",
+    "duration": 15,
+    "price": 200,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Beard",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "beard"
+    ],
+    "sortOrder": 42,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1741",
+    "name": "Nashi & Keratine wash",
+    "description": "Nashi & Keratine wash (10% extra on base price)",
+    "duration": 15,
+    "price": 1,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair wash",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair wash"
+    ],
+    "sortOrder": 49,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.635Z",
+    "updatedAt": "2025-10-24T10:05:35.635Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1746",
+    "name": "Short Length",
+    "description": "Hair wash and blowdry for short length hair",
+    "duration": 30,
+    "price": 600,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair Wash & Blowdry",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair wash & blowdry"
+    ],
+    "sortOrder": 54,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.636Z",
+    "updatedAt": "2025-10-24T10:05:35.636Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1748",
+    "name": "Long Length",
+    "description": "Hair wash and blowdry for long length hair",
+    "duration": 45,
+    "price": 850,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair Wash & Blowdry",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair wash & blowdry"
+    ],
+    "sortOrder": 56,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.636Z",
+    "updatedAt": "2025-10-24T10:05:35.636Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1750",
+    "name": "Gel Polish",
+    "description": "Gel polish application",
+    "duration": 25,
+    "price": 1000,
+    "currency": "INR",
+    "category": "nail",
+    "subCategory": "Nails",
+    "icon": "hand",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nails",
+      "nails"
+    ],
+    "sortOrder": 64,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.636Z",
+    "updatedAt": "2025-10-24T10:05:35.636Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1753",
+    "name": "Gel Extension",
+    "description": "Gel nail extension service",
+    "duration": 15,
+    "price": 2000,
+    "currency": "INR",
+    "category": "nail",
+    "subCategory": "Nails",
+    "icon": "hand",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nails",
+      "nails"
+    ],
+    "sortOrder": 67,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af175a",
+    "name": "Male Basic Makeup",
+    "description": "Basic makeup for men",
+    "duration": 60,
+    "price": 4000,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Makeup",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "makeup"
+    ],
+    "sortOrder": 74,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af175b",
+    "name": "Advance Makeup",
+    "description": "Advanced makeup service",
+    "duration": 120,
+    "price": 5000,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Makeup",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "makeup"
+    ],
+    "sortOrder": 75,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af175e",
+    "name": "Bridal Makeup",
+    "description": "Complete bridal makeup service",
+    "duration": 15,
+    "price": 20000,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Makeup",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "makeup"
+    ],
+    "sortOrder": 78,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af176a",
+    "name": "Short Length",
+    "description": "Pre-lightning for short length hair",
+    "duration": 60,
+    "price": 2500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Prelightning",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "prelightning"
+    ],
+    "sortOrder": 90,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1776",
+    "name": "Extra Long length",
+    "description": "Balayage for extra long length hair",
+    "duration": 180,
+    "price": 10500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Balayage",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "balayage"
+    ],
+    "sortOrder": 102,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af177e",
+    "name": "Long Length",
+    "description": "Keratin/Botox/Protein/Nanoplastia treatment for long length hair",
+    "duration": 240,
+    "price": 11000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Keratine/Botox/Protein /Nanoplastia/ Treatment",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "keratine/botox/protein /nanopl"
+    ],
+    "sortOrder": 110,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1783",
+    "name": "Long Length",
+    "description": "Loreal smoothening/straightening for long length hair",
+    "duration": 240,
+    "price": 9000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Smoothening/ Straightening (Loreal)",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "smoothening/ straightening (lo"
+    ],
+    "sortOrder": 115,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1785",
+    "name": "Male",
+    "description": "Schwarzkopf straightening therapy for men",
+    "duration": 240,
+    "price": 5500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Schwarzkopf Staightening Therapy/ Purming",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "schwarzkopf staightening thera"
+    ],
+    "sortOrder": 117,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1787",
+    "name": "Medium Length",
+    "description": "Schwarzkopf straightening therapy for medium length hair",
+    "duration": 240,
+    "price": 9500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Schwarzkopf Staightening Therapy/ Purming",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "schwarzkopf staightening thera"
+    ],
+    "sortOrder": 119,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1789",
+    "name": "Extra Long length",
+    "description": "Schwarzkopf straightening therapy for extra long length hair",
+    "duration": 300,
+    "price": 11000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Schwarzkopf Staightening Therapy/ Purming",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "schwarzkopf staightening thera"
+    ],
+    "sortOrder": 121,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1792",
+    "name": "Arms/Back/Feet",
+    "description": "Female massage for arms, back and feet",
+    "duration": 20,
+    "price": 850,
+    "currency": "INR",
+    "category": "body",
+    "subCategory": "Massage (Female)",
+    "icon": "hands",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "body service",
+      "massage (female)"
+    ],
+    "sortOrder": 130,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1795",
+    "name": "Arms",
+    "description": "Skin polishing for arms",
+    "duration": 30,
+    "price": 1600,
+    "currency": "INR",
+    "category": "body",
+    "subCategory": "Skin Polishing",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "body service",
+      "skin polishing"
+    ],
+    "sortOrder": 133,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1797",
+    "name": "Full Body",
+    "description": "Full body skin polishing",
+    "duration": 15,
+    "price": 6000,
+    "currency": "INR",
+    "category": "body",
+    "subCategory": "Skin Polishing",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "body service",
+      "skin polishing"
+    ],
+    "sortOrder": 135,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1799",
+    "name": "Face",
+    "description": "Bleach/D tan for face",
+    "duration": 20,
+    "price": 650,
+    "currency": "INR",
+    "category": "body",
+    "subCategory": "Bleach / D tan",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "body service",
+      "bleach / d tan"
+    ],
+    "sortOrder": 137,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af179d",
+    "name": "Basic Clean Up",
+    "description": "Basic facial clean up service",
+    "duration": 25,
+    "price": 1000,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Clean Up/Mask",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "clean up/mask"
+    ],
+    "sortOrder": 141,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af179e",
+    "name": "Luxury Clean up",
+    "description": "Luxury facial clean up service",
+    "duration": 30,
+    "price": 2000,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Clean Up/Mask",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "clean up/mask"
+    ],
+    "sortOrder": 142,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17a4",
+    "name": "Advance Facial",
+    "description": "Advanced facial treatment",
+    "duration": 60,
+    "price": 4500,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Facial",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "facial"
+    ],
+    "sortOrder": 148,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17a8",
+    "name": "Female",
+    "description": "Head massage for women",
+    "duration": 45,
+    "price": 900,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "head massge",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "head massge"
+    ],
+    "sortOrder": 152,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17ae",
+    "name": "Long Length",
+    "description": "Deep nourishing spa for long length hair",
+    "duration": 75,
+    "price": 1800,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "deep nourshing spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "deep nourshing spa"
+    ],
+    "sortOrder": 158,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17b1",
+    "name": "Medium Length",
+    "description": "Split end removal for medium length hair",
+    "duration": 45,
+    "price": 1000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "split end removal",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "split end removal"
+    ],
+    "sortOrder": 161,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17b2",
+    "name": "Long Length",
+    "description": "Split end removal for long length hair",
+    "duration": 60,
+    "price": 1500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "split end removal",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "split end removal"
+    ],
+    "sortOrder": 162,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17b9",
+    "name": "Male",
+    "description": "Advanced hair spa for men",
+    "duration": 30,
+    "price": 2300,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "adavnace Hair Spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "adavnace hair spa"
+    ],
+    "sortOrder": 169,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17bb",
+    "name": "Medium Length",
+    "description": "Advanced hair spa for medium length hair",
+    "duration": 75,
+    "price": 3700,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "adavnace Hair Spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "adavnace hair spa"
+    ],
+    "sortOrder": 171,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17bd",
+    "name": "Extra Long length",
+    "description": "Advanced hair spa for extra long length hair",
+    "duration": 120,
+    "price": 4200,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "adavnace Hair Spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "adavnace hair spa"
+    ],
+    "sortOrder": 173,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17bf",
+    "name": "Short Length",
+    "description": "Hair & scalp treatment for short length hair",
+    "duration": 75,
+    "price": 3000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair & Scalp Trearment / luxury hair spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair & scalp trearment / luxur"
+    ],
+    "sortOrder": 175,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1712",
+    "name": "Forahed",
+    "description": "Forehead threading service",
+    "duration": 15,
+    "price": 70,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Threading",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "threading"
+    ],
+    "sortOrder": 2,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.490Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.632Z",
+    "updatedAt": "2025-10-24T10:05:35.632Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af171a",
+    "name": "Male Front/Back",
+    "description": "Male front and back waxing",
+    "duration": 45,
+    "price": 2500,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Roll On Wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "roll on wax"
+    ],
+    "sortOrder": 10,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.632Z",
+    "updatedAt": "2025-10-24T10:05:35.632Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af171e",
+    "name": "Stomach/B line",
+    "description": "Stomach and bikini line honey waxing",
+    "duration": 20,
+    "price": 550,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Honey Wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "honey wax"
+    ],
+    "sortOrder": 14,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.632Z",
+    "updatedAt": "2025-10-24T10:05:35.632Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1724",
+    "name": "Front /back",
+    "description": "Front and back Rica waxing",
+    "duration": 20,
+    "price": 700,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Rica Wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "rica wax"
+    ],
+    "sortOrder": 20,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.633Z",
+    "updatedAt": "2025-10-24T10:05:35.633Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af172a",
+    "name": "Brazillian",
+    "description": "Brazilian stripless waxing",
+    "duration": 30,
+    "price": 2300,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Stripless wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "stripless wax"
+    ],
+    "sortOrder": 26,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.633Z",
+    "updatedAt": "2025-10-24T10:05:35.633Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af172d",
+    "name": "Hair cut girl",
+    "description": "Hair cut for girls",
+    "duration": 30,
+    "price": 550,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair cut Women",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair cut women"
+    ],
+    "sortOrder": 29,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af172f",
+    "name": "Advance hair cut",
+    "description": "Advanced hair cut for women",
+    "duration": 60,
+    "price": 900,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair cut Women",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair cut women"
+    ],
+    "sortOrder": 31,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1735",
+    "name": "Advance hair cut",
+    "description": "Advanced hair cut for men",
+    "duration": 45,
+    "price": 600,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair cut Men",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair cut men"
+    ],
+    "sortOrder": 37,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1736",
+    "name": "Expert Hair cut",
+    "description": "Expert hair cut for men",
+    "duration": 45,
+    "price": 1000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair cut Men",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair cut men"
+    ],
+    "sortOrder": 38,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1737",
+    "name": "Hair wash",
+    "description": "Hair wash for men",
+    "duration": 15,
+    "price": 200,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair cut Men",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair cut men"
+    ],
+    "sortOrder": 39,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af173f",
+    "name": "Long Length",
+    "description": "Hair wash for long length hair",
+    "duration": 30,
+    "price": 550,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair wash",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair wash"
+    ],
+    "sortOrder": 47,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.635Z",
+    "updatedAt": "2025-10-24T10:05:35.635Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1745",
+    "name": "Extra Long Length",
+    "description": "Styling blowdry for extra long length hair",
+    "duration": 30,
+    "price": 800,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Styling Blowdry",
+    "icon": "brush",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "styling blowdry"
+    ],
+    "sortOrder": 53,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.635Z",
+    "updatedAt": "2025-10-24T10:05:35.635Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1749",
+    "name": "Extra Long Length",
+    "description": "Hair wash and blowdry for extra long length hair",
+    "duration": 45,
+    "price": 900,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair Wash & Blowdry",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair wash & blowdry"
+    ],
+    "sortOrder": 57,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.636Z",
+    "updatedAt": "2025-10-24T10:05:35.636Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af174a",
+    "name": "Short Length",
+    "description": "Machine styling for short length hair",
+    "duration": 30,
+    "price": 1000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Machine Style",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "machine style"
+    ],
+    "sortOrder": 58,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.636Z",
+    "updatedAt": "2025-10-24T10:05:35.636Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af174c",
+    "name": "Long Length",
+    "description": "Machine styling for long length hair",
+    "duration": 45,
+    "price": 1800,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Machine Style",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "machine style"
+    ],
+    "sortOrder": 60,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.636Z",
+    "updatedAt": "2025-10-24T10:05:35.636Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af174d",
+    "name": "Extra Long Length",
+    "description": "Machine styling for extra long length hair",
+    "duration": 45,
+    "price": 2000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Machine Style",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "machine style"
+    ],
+    "sortOrder": 61,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.636Z",
+    "updatedAt": "2025-10-24T10:05:35.636Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af174f",
+    "name": "Nail Cut And File Polish",
+    "description": "Nail cut, file and polish service",
+    "duration": 15,
+    "price": 150,
+    "currency": "INR",
+    "category": "nail",
+    "subCategory": "Nails",
+    "icon": "hand",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nails",
+      "nails"
+    ],
+    "sortOrder": 63,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.636Z",
+    "updatedAt": "2025-10-24T10:05:35.636Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1751",
+    "name": "2 Shade Polish",
+    "description": "Two shade polish application",
+    "duration": 30,
+    "price": 1500,
+    "currency": "INR",
+    "category": "nail",
+    "subCategory": "Nails",
+    "icon": "hand",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nails",
+      "nails"
+    ],
+    "sortOrder": 65,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.636Z",
+    "updatedAt": "2025-10-24T10:05:35.636Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1755",
+    "name": "Basic Art",
+    "description": "Basic nail art design",
+    "duration": 15,
+    "price": 50,
+    "currency": "INR",
+    "category": "nail",
+    "subCategory": "Nails",
+    "icon": "hand",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nails",
+      "nails"
+    ],
+    "sortOrder": 69,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1756",
+    "name": "Advanced Art",
+    "description": "Advanced nail art design",
+    "duration": 15,
+    "price": 100,
+    "currency": "INR",
+    "category": "nail",
+    "subCategory": "Nails",
+    "icon": "hand",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nails",
+      "nails"
+    ],
+    "sortOrder": 70,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1758",
+    "name": "Extension Removal",
+    "description": "Nail extension removal service",
+    "duration": 30,
+    "price": 500,
+    "currency": "INR",
+    "category": "nail",
+    "subCategory": "Nails",
+    "icon": "hand",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nails",
+      "nails"
+    ],
+    "sortOrder": 72,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af175c",
+    "name": "Female Basic Makeup",
+    "description": "Basic makeup for women",
+    "duration": 60,
+    "price": 3500,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Makeup",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "makeup"
+    ],
+    "sortOrder": 76,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af175d",
+    "name": "Party/Function Makeup",
+    "description": "Party and function makeup service",
+    "duration": 120,
+    "price": 6000,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Makeup",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "makeup"
+    ],
+    "sortOrder": 77,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af175f",
+    "name": "Saree",
+    "description": "Saree draping service",
+    "duration": 15,
+    "price": 600,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Makeup",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "makeup"
+    ],
+    "sortOrder": 79,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af176f",
+    "name": "Short Length",
+    "description": "Hair highlights for short length",
+    "duration": 120,
+    "price": 7000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Highlights",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "highlights"
+    ],
+    "sortOrder": 95,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1771",
+    "name": "Long Length",
+    "description": "Hair highlights for long length",
+    "duration": 180,
+    "price": 9000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Highlights",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "highlights"
+    ],
+    "sortOrder": 97,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1772",
+    "name": "Extra Long length",
+    "description": "Hair highlights for extra long length",
+    "duration": 240,
+    "price": 10000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Highlights",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "highlights"
+    ],
+    "sortOrder": 98,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1778",
+    "name": "Prelightning",
+    "description": "Per streak pre-lightning service",
+    "duration": 15,
+    "price": 250,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Per Streak",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "per streak"
+    ],
+    "sortOrder": 104,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af177c",
+    "name": "Short Length",
+    "description": "Keratin/Botox/Protein/Nanoplastia treatment for short length hair",
+    "duration": 180,
+    "price": 8000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Keratine/Botox/Protein /Nanoplastia/ Treatment",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "keratine/botox/protein /nanopl"
+    ],
+    "sortOrder": 108,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af177f",
+    "name": "Extra Long length",
+    "description": "Keratin/Botox/Protein/Nanoplastia treatment for extra long length hair",
+    "duration": 300,
+    "price": 12000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Keratine/Botox/Protein /Nanoplastia/ Treatment",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "keratine/botox/protein /nanopl"
+    ],
+    "sortOrder": 111,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1782",
+    "name": "Medium Length",
+    "description": "Loreal smoothening/straightening for medium length hair",
+    "duration": 240,
+    "price": 8500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Smoothening/ Straightening (Loreal)",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "smoothening/ straightening (lo"
+    ],
+    "sortOrder": 114,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1784",
+    "name": "Extra Long length",
+    "description": "Loreal smoothening/straightening for extra long length hair",
+    "duration": 300,
+    "price": 10000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Smoothening/ Straightening (Loreal)",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "smoothening/ straightening (lo"
+    ],
+    "sortOrder": 116,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1786",
+    "name": "Short Length",
+    "description": "Schwarzkopf straightening therapy for short length hair",
+    "duration": 180,
+    "price": 7500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Schwarzkopf Staightening Therapy/ Purming",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "schwarzkopf staightening thera"
+    ],
+    "sortOrder": 118,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af178a",
+    "name": "Basic manicure",
+    "description": "Basic manicure service",
+    "duration": 15,
+    "price": 500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Manicure",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nail",
+      "manicure"
+    ],
+    "sortOrder": 122,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af178d",
+    "name": "Luxury Manicure",
+    "description": "Luxury manicure service",
+    "duration": 45,
+    "price": 1500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Manicure",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nail",
+      "manicure"
+    ],
+    "sortOrder": 125,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af178f",
+    "name": "Premium Pedicure",
+    "description": "Premium pedicure service",
+    "duration": 45,
+    "price": 1500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Pedicure",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nail",
+      "pedicure"
+    ],
+    "sortOrder": 127,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1790",
+    "name": "Luxury Pedicure",
+    "description": "Luxury pedicure service",
+    "duration": 60,
+    "price": 2000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Pedicure",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nail",
+      "pedicure"
+    ],
+    "sortOrder": 128,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1796",
+    "name": "Legs /Front Back",
+    "description": "Skin polishing for legs, front and back",
+    "duration": 45,
+    "price": 2000,
+    "currency": "INR",
+    "category": "body",
+    "subCategory": "Skin Polishing",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "body service",
+      "skin polishing"
+    ],
+    "sortOrder": 134,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1798",
+    "name": "Under arms/Feet",
+    "description": "Bleach/D tan for underarms and feet",
+    "duration": 15,
+    "price": 400,
+    "currency": "INR",
+    "category": "body",
+    "subCategory": "Bleach / D tan",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "body service",
+      "bleach / d tan"
+    ],
+    "sortOrder": 136,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17a0",
+    "name": "Luxury Mask",
+    "description": "Luxury facial mask service",
+    "duration": 15,
+    "price": 1000,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Clean Up/Mask",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "clean up/mask"
+    ],
+    "sortOrder": 144,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17a1",
+    "name": "Basic Facial",
+    "description": "Basic facial treatment",
+    "duration": 45,
+    "price": 2000,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Facial",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "facial"
+    ],
+    "sortOrder": 145,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17a5",
+    "name": "Luxury Facial",
+    "description": "Luxury facial treatment",
+    "duration": 15,
+    "price": 5500,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Facial",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "facial"
+    ],
+    "sortOrder": 149,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17aa",
+    "name": "Female",
+    "description": "Inner spa treatment for women",
+    "duration": 60,
+    "price": 2500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "inner spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "inner spa"
+    ],
+    "sortOrder": 154,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17ab",
+    "name": "Male",
+    "description": "Deep nourishing spa for men",
+    "duration": 30,
+    "price": 1000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "deep nourshing spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "deep nourshing spa"
+    ],
+    "sortOrder": 155,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17ac",
+    "name": "Short Length",
+    "description": "Deep nourishing spa for short length hair",
+    "duration": 45,
+    "price": 1300,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "deep nourshing spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "deep nourshing spa"
+    ],
+    "sortOrder": 156,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17b3",
+    "name": "Extra Long length",
+    "description": "Split end removal for extra long length hair",
+    "duration": 75,
+    "price": 1800,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "split end removal",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "split end removal"
+    ],
+    "sortOrder": 163,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17b4",
+    "name": "Male",
+    "description": "Premium hair spa for men",
+    "duration": 30,
+    "price": 1500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Premium Hair Spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "premium hair spa"
+    ],
+    "sortOrder": 164,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17b5",
+    "name": "Short Length",
+    "description": "Premium hair spa for short length hair",
+    "duration": 60,
+    "price": 2200,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Premium Hair Spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "premium hair spa"
+    ],
+    "sortOrder": 165,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17b8",
+    "name": "Extra Long length",
+    "description": "Premium hair spa for extra long length hair",
+    "duration": 120,
+    "price": 3500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Premium Hair Spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "premium hair spa"
+    ],
+    "sortOrder": 168,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17bc",
+    "name": "Long Length",
+    "description": "Advanced hair spa for long length hair",
+    "duration": 75,
+    "price": 4000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "adavnace Hair Spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "adavnace hair spa"
+    ],
+    "sortOrder": 172,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17c2",
+    "name": "Extra Long length",
+    "description": "Hair & scalp treatment for extra long length hair",
+    "duration": 120,
+    "price": 4500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair & Scalp Trearment / luxury hair spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair & scalp trearment / luxur"
+    ],
+    "sortOrder": 178,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.494Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.643Z",
+    "updatedAt": "2025-10-24T10:05:35.643Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1713",
+    "name": "Chin",
+    "description": "Chin threading service",
+    "duration": 15,
+    "price": 70,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Threading",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "threading"
+    ],
+    "sortOrder": 3,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.490Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.632Z",
+    "updatedAt": "2025-10-24T10:05:35.632Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af171d",
+    "name": "Arms",
+    "description": "Arm honey waxing",
+    "duration": 15,
+    "price": 600,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Honey Wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "honey wax"
+    ],
+    "sortOrder": 13,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.632Z",
+    "updatedAt": "2025-10-24T10:05:35.632Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af172b",
+    "name": "Face wax/ Bikini Line",
+    "description": "Face wax and bikini line stripless waxing",
+    "duration": 30,
+    "price": 1000,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Stripless wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "stripless wax"
+    ],
+    "sortOrder": 27,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.633Z",
+    "updatedAt": "2025-10-24T10:05:35.633Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af172e",
+    "name": "Basic Hair cut",
+    "description": "Basic hair cut for women",
+    "duration": 60,
+    "price": 800,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair cut Women",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair cut women"
+    ],
+    "sortOrder": 30,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1730",
+    "name": "Expert Hair cut",
+    "description": "Expert hair cut for women",
+    "duration": 60,
+    "price": 1500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair cut Women",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair cut women"
+    ],
+    "sortOrder": 32,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1731",
+    "name": "Short/Bob Cut",
+    "description": "Short and bob cut for women",
+    "duration": 60,
+    "price": 1600,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair cut Women",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair cut women"
+    ],
+    "sortOrder": 33,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1733",
+    "name": "Hair cut boy",
+    "description": "Hair cut for boys",
+    "duration": 30,
+    "price": 450,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair cut Men",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair cut men"
+    ],
+    "sortOrder": 35,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1734",
+    "name": "Basic Hair cut",
+    "description": "Basic hair cut for men",
+    "duration": 30,
+    "price": 500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair cut Men",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair cut men"
+    ],
+    "sortOrder": 36,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af173c",
+    "name": "Beard Crating (Expert)",
+    "description": "Expert beard creating service",
+    "duration": 20,
+    "price": 500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Beard",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "beard"
+    ],
+    "sortOrder": 44,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1752",
+    "name": "Chrome Polish",
+    "description": "Chrome polish application",
+    "duration": 45,
+    "price": 1800,
+    "currency": "INR",
+    "category": "nail",
+    "subCategory": "Nails",
+    "icon": "hand",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nails",
+      "nails"
+    ],
+    "sortOrder": 66,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1754",
+    "name": "Acrylic Extension",
+    "description": "Acrylic nail extension service",
+    "duration": 15,
+    "price": 2500,
+    "currency": "INR",
+    "category": "nail",
+    "subCategory": "Nails",
+    "icon": "hand",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nails",
+      "nails"
+    ],
+    "sortOrder": 68,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1757",
+    "name": "Gel Polish Removal",
+    "description": "Gel polish removal service",
+    "duration": 20,
+    "price": 250,
+    "currency": "INR",
+    "category": "nail",
+    "subCategory": "Nails",
+    "icon": "hand",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nails",
+      "nails"
+    ],
+    "sortOrder": 71,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1760",
+    "name": "Style",
+    "description": "Styling service",
+    "duration": 60,
+    "price": 2000,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Makeup",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "makeup"
+    ],
+    "sortOrder": 80,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1761",
+    "name": "Hair color Male",
+    "description": "Hair coloring for men without ammonia",
+    "duration": 45,
+    "price": 1500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair color Without amonia",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair color without amonia"
+    ],
+    "sortOrder": 81,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1762",
+    "name": "Beard/Sidelock",
+    "description": "Beard and side lock coloring without ammonia",
+    "duration": 30,
+    "price": 600,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair color Without amonia",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair color without amonia"
+    ],
+    "sortOrder": 82,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1764",
+    "name": "Hair Touch up 4 inch",
+    "description": "4 inch hair touch up without ammonia",
+    "duration": 120,
+    "price": 3300,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair color Without amonia",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair color without amonia"
+    ],
+    "sortOrder": 84,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1765",
+    "name": "Short Length",
+    "description": "Short length hair coloring without ammonia",
+    "duration": 120,
+    "price": 6000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair color Without amonia",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair color without amonia"
+    ],
+    "sortOrder": 85,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1766",
+    "name": "Medium Length",
+    "description": "Medium length hair coloring without ammonia",
+    "duration": 180,
+    "price": 7500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair color Without amonia",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair color without amonia"
+    ],
+    "sortOrder": 86,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af176b",
+    "name": "Medium Length",
+    "description": "Pre-lightning for medium length hair",
+    "duration": 60,
+    "price": 3000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Prelightning",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "prelightning"
+    ],
+    "sortOrder": 91,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af176c",
+    "name": "Long Length",
+    "description": "Pre-lightning for long length hair",
+    "duration": 60,
+    "price": 3500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Prelightning",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "prelightning"
+    ],
+    "sortOrder": 92,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af176e",
+    "name": "Male",
+    "description": "Hair highlights for men",
+    "duration": 120,
+    "price": 3000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Highlights",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "highlights"
+    ],
+    "sortOrder": 94,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1773",
+    "name": "Short Length",
+    "description": "Balayage for short length hair",
+    "duration": 120,
+    "price": 7500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Balayage",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "balayage"
+    ],
+    "sortOrder": 99,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1774",
+    "name": "Medium Length",
+    "description": "Balayage for medium length hair",
+    "duration": 120,
+    "price": 8500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Balayage",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "balayage"
+    ],
+    "sortOrder": 100,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1775",
+    "name": "Long Length",
+    "description": "Balayage for long length hair",
+    "duration": 180,
+    "price": 9500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Balayage",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "balayage"
+    ],
+    "sortOrder": 101,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1777",
+    "name": "Highlights",
+    "description": "Per streak highlights service",
+    "duration": 30,
+    "price": 400,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Per Streak",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "per streak"
+    ],
+    "sortOrder": 103,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1779",
+    "name": "Crazy color Male",
+    "description": "Crazy color streaks for men",
+    "duration": 30,
+    "price": 500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Per Streak",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "per streak"
+    ],
+    "sortOrder": 105,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1788",
+    "name": "Long Length",
+    "description": "Schwarzkopf straightening therapy for long length hair",
+    "duration": 240,
+    "price": 10500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Schwarzkopf Staightening Therapy/ Purming",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "schwarzkopf staightening thera"
+    ],
+    "sortOrder": 120,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af178b",
+    "name": "Classic Manicure",
+    "description": "Classic manicure service",
+    "duration": 30,
+    "price": 800,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Manicure",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nail",
+      "manicure"
+    ],
+    "sortOrder": 123,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af178c",
+    "name": "Premium Manicure",
+    "description": "Premium manicure service",
+    "duration": 45,
+    "price": 1200,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Manicure",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nail",
+      "manicure"
+    ],
+    "sortOrder": 124,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af179b",
+    "name": "Arms/legs /front /back",
+    "description": "Bleach/D tan for arms, legs, front and back",
+    "duration": 30,
+    "price": 1300,
+    "currency": "INR",
+    "category": "body",
+    "subCategory": "Bleach / D tan",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "body service",
+      "bleach / d tan"
+    ],
+    "sortOrder": 139,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17a2",
+    "name": "Premium Facial",
+    "description": "Premium facial treatment",
+    "duration": 45,
+    "price": 2500,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Facial",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "facial"
+    ],
+    "sortOrder": 146,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17a6",
+    "name": "Hydra Facial",
+    "description": "Hydra facial treatment",
+    "duration": 15,
+    "price": 7000,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Facial",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "facial"
+    ],
+    "sortOrder": 150,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17a9",
+    "name": "Male",
+    "description": "Inner spa treatment for men",
+    "duration": 30,
+    "price": 1300,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "inner spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "inner spa"
+    ],
+    "sortOrder": 153,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17b0",
+    "name": "Short Length",
+    "description": "Split end removal for short length hair",
+    "duration": 30,
+    "price": 800,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "split end removal",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "split end removal"
+    ],
+    "sortOrder": 160,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17b7",
+    "name": "Long Length",
+    "description": "Premium hair spa for long length hair",
+    "duration": 75,
+    "price": 3300,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Premium Hair Spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "premium hair spa"
+    ],
+    "sortOrder": 167,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1714",
+    "name": "Upper lips",
+    "description": "Upper lip threading service",
+    "duration": 15,
+    "price": 70,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Threading",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "threading"
+    ],
+    "sortOrder": 4,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.490Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.632Z",
+    "updatedAt": "2025-10-24T10:05:35.632Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1717",
+    "name": "Side Lock",
+    "description": "Side lock threading service",
+    "duration": 15,
+    "price": 100,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Threading",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "threading"
+    ],
+    "sortOrder": 7,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.490Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.632Z",
+    "updatedAt": "2025-10-24T10:05:35.632Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1721",
+    "name": "Full legs",
+    "description": "Full leg honey waxing",
+    "duration": 25,
+    "price": 700,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Honey Wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "honey wax"
+    ],
+    "sortOrder": 17,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.633Z",
+    "updatedAt": "2025-10-24T10:05:35.633Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1723",
+    "name": "Arms/Stomach/Behind",
+    "description": "Arms, stomach and behind Rica waxing",
+    "duration": 15,
+    "price": 650,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Rica Wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "rica wax"
+    ],
+    "sortOrder": 19,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.633Z",
+    "updatedAt": "2025-10-24T10:05:35.633Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1726",
+    "name": "Full legs",
+    "description": "Full leg Rica waxing",
+    "duration": 25,
+    "price": 750,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Rica Wax",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "rica wax"
+    ],
+    "sortOrder": 22,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.633Z",
+    "updatedAt": "2025-10-24T10:05:35.633Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af172c",
+    "name": "Fringe cut",
+    "description": "Professional fringe cut for women",
+    "duration": 20,
+    "price": 350,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair cut Women",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair cut women"
+    ],
+    "sortOrder": 28,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.633Z",
+    "updatedAt": "2025-10-24T10:05:35.633Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1732",
+    "name": "Additional Hair wash",
+    "description": "Additional hair wash service",
+    "duration": 15,
+    "price": 250,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair cut Women",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair cut women"
+    ],
+    "sortOrder": 34,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.491Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1738",
+    "name": "Hair style",
+    "description": "Hair styling for men",
+    "duration": 15,
+    "price": 250,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair cut Men",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair cut men"
+    ],
+    "sortOrder": 40,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1739",
+    "name": "Shaving",
+    "description": "Professional shaving service",
+    "duration": 20,
+    "price": 250,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Beard",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "beard"
+    ],
+    "sortOrder": 41,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af173b",
+    "name": "Beard Crating",
+    "description": "Beard creating service",
+    "duration": 20,
+    "price": 300,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Beard",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "beard"
+    ],
+    "sortOrder": 43,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.634Z",
+    "updatedAt": "2025-10-24T10:05:35.634Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af173d",
+    "name": "Short Length",
+    "description": "Hair wash for short length hair",
+    "duration": 20,
+    "price": 350,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair wash",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair wash"
+    ],
+    "sortOrder": 45,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.635Z",
+    "updatedAt": "2025-10-24T10:05:35.635Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af173e",
+    "name": "Medium Length",
+    "description": "Hair wash for medium length hair",
+    "duration": 30,
+    "price": 450,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair wash",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair wash"
+    ],
+    "sortOrder": 46,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.635Z",
+    "updatedAt": "2025-10-24T10:05:35.635Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1740",
+    "name": "Extra Long Length",
+    "description": "Hair wash for extra long length hair",
+    "duration": 30,
+    "price": 600,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair wash",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair wash"
+    ],
+    "sortOrder": 48,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.635Z",
+    "updatedAt": "2025-10-24T10:05:35.635Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1742",
+    "name": "Short Length",
+    "description": "Styling blowdry for short length hair",
+    "duration": 15,
+    "price": 500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Styling Blowdry",
+    "icon": "brush",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "styling blowdry"
+    ],
+    "sortOrder": 50,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.635Z",
+    "updatedAt": "2025-10-24T10:05:35.635Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1743",
+    "name": "Medium Length",
+    "description": "Styling blowdry for medium length hair",
+    "duration": 20,
+    "price": 600,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Styling Blowdry",
+    "icon": "brush",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "styling blowdry"
+    ],
+    "sortOrder": 51,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.635Z",
+    "updatedAt": "2025-10-24T10:05:35.635Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1744",
+    "name": "Long Length",
+    "description": "Styling blowdry for long length hair",
+    "duration": 30,
+    "price": 700,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Styling Blowdry",
+    "icon": "brush",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "styling blowdry"
+    ],
+    "sortOrder": 52,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.635Z",
+    "updatedAt": "2025-10-24T10:05:35.635Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1747",
+    "name": "Medium Length",
+    "description": "Hair wash and blowdry for medium length hair",
+    "duration": 45,
+    "price": 750,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair Wash & Blowdry",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair wash & blowdry"
+    ],
+    "sortOrder": 55,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.636Z",
+    "updatedAt": "2025-10-24T10:05:35.636Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af174b",
+    "name": "Medium Length",
+    "description": "Machine styling for medium length hair",
+    "duration": 45,
+    "price": 1500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Machine Style",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "machine style"
+    ],
+    "sortOrder": 59,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.636Z",
+    "updatedAt": "2025-10-24T10:05:35.636Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af174e",
+    "name": "Nail Cut And File",
+    "description": "Basic nail cut and file service",
+    "duration": 15,
+    "price": 100,
+    "currency": "INR",
+    "category": "nail",
+    "subCategory": "Nails",
+    "icon": "hand",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nails",
+      "nails"
+    ],
+    "sortOrder": 62,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.636Z",
+    "updatedAt": "2025-10-24T10:05:35.636Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1759",
+    "name": "Extension Refils",
+    "description": "Nail extension refill service",
+    "duration": 60,
+    "price": 1000,
+    "currency": "INR",
+    "category": "nail",
+    "subCategory": "Nails",
+    "icon": "hand",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nails",
+      "nails"
+    ],
+    "sortOrder": 73,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1763",
+    "name": "Hair Touch up 2 inch",
+    "description": "2 inch hair touch up without ammonia",
+    "duration": 180,
+    "price": 2800,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair color Without amonia",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair color without amonia"
+    ],
+    "sortOrder": 83,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.637Z",
+    "updatedAt": "2025-10-24T10:05:35.637Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1767",
+    "name": "Long Length",
+    "description": "Long length hair coloring without ammonia",
+    "duration": 180,
+    "price": 8500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair color Without amonia",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair color without amonia"
+    ],
+    "sortOrder": 87,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1768",
+    "name": "Extra Long length",
+    "description": "Extra long length hair coloring without ammonia",
+    "duration": 180,
+    "price": 9500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair color Without amonia",
+    "icon": "palette",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair color without amonia"
+    ],
+    "sortOrder": 88,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1769",
+    "name": "Male",
+    "description": "Pre-lightning for men",
+    "duration": 30,
+    "price": 1200,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Prelightning",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "prelightning"
+    ],
+    "sortOrder": 89,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af176d",
+    "name": "Extra Long length",
+    "description": "Pre-lightning for extra long length hair",
+    "duration": 60,
+    "price": 4000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Prelightning",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "prelightning"
+    ],
+    "sortOrder": 93,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1770",
+    "name": "Medium Length",
+    "description": "Hair highlights for medium length",
+    "duration": 180,
+    "price": 8000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Highlights",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "highlights"
+    ],
+    "sortOrder": 96,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.492Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.638Z",
+    "updatedAt": "2025-10-24T10:05:35.638Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af177a",
+    "name": "Crazy color Female",
+    "description": "Crazy color streaks for women",
+    "duration": 30,
+    "price": 600,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Per Streak",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "per streak"
+    ],
+    "sortOrder": 106,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af177b",
+    "name": "Male",
+    "description": "Keratin/Botox/Protein/Nanoplastia treatment for men",
+    "duration": 180,
+    "price": 5000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Keratine/Botox/Protein /Nanoplastia/ Treatment",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "keratine/botox/protein /nanopl"
+    ],
+    "sortOrder": 107,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af177d",
+    "name": "Medium Length",
+    "description": "Keratin/Botox/Protein/Nanoplastia treatment for medium length hair",
+    "duration": 240,
+    "price": 10000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Keratine/Botox/Protein /Nanoplastia/ Treatment",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "keratine/botox/protein /nanopl"
+    ],
+    "sortOrder": 109,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1780",
+    "name": "Male",
+    "description": "Loreal smoothening/straightening for men",
+    "duration": 180,
+    "price": 4500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Smoothening/ Straightening (Loreal)",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "smoothening/ straightening (lo"
+    ],
+    "sortOrder": 112,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1781",
+    "name": "Short Length",
+    "description": "Loreal smoothening/straightening for short length hair",
+    "duration": 180,
+    "price": 7000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Smoothening/ Straightening (Loreal)",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "smoothening/ straightening (lo"
+    ],
+    "sortOrder": 113,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.639Z",
+    "updatedAt": "2025-10-24T10:05:35.639Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af178e",
+    "name": "Classic Pedicure",
+    "description": "Classic pedicure service",
+    "duration": 30,
+    "price": 1000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Pedicure",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nail",
+      "pedicure"
+    ],
+    "sortOrder": 126,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1791",
+    "name": "Heel Peel",
+    "description": "Heel peel pedicure service",
+    "duration": 15,
+    "price": 2500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Pedicure",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "nail",
+      "pedicure"
+    ],
+    "sortOrder": 129,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1793",
+    "name": "Full body",
+    "description": "Full body massage for females",
+    "duration": 45,
+    "price": 2500,
+    "currency": "INR",
+    "category": "body",
+    "subCategory": "Massage (Female)",
+    "icon": "hands",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "body service",
+      "massage (female)"
+    ],
+    "sortOrder": 131,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af1794",
+    "name": "Neck /Under arms",
+    "description": "Skin polishing for neck and underarms",
+    "duration": 20,
+    "price": 1300,
+    "currency": "INR",
+    "category": "body",
+    "subCategory": "Skin Polishing",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "body service",
+      "skin polishing"
+    ],
+    "sortOrder": 132,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af179a",
+    "name": "Neck",
+    "description": "Bleach/D tan for neck",
+    "duration": 20,
+    "price": 600,
+    "currency": "INR",
+    "category": "body",
+    "subCategory": "Bleach / D tan",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "body service",
+      "bleach / d tan"
+    ],
+    "sortOrder": 138,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af179c",
+    "name": "Fully Body",
+    "description": "Full body bleach/D tan service",
+    "duration": 60,
+    "price": 4000,
+    "currency": "INR",
+    "category": "body",
+    "subCategory": "Bleach / D tan",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "body service",
+      "bleach / d tan"
+    ],
+    "sortOrder": 140,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.640Z",
+    "updatedAt": "2025-10-24T10:05:35.640Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af179f",
+    "name": "Basic Mask",
+    "description": "Basic facial mask service",
+    "duration": 15,
+    "price": 700,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Clean Up/Mask",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "clean up/mask"
+    ],
+    "sortOrder": 143,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17a3",
+    "name": "D-Tan Facial",
+    "description": "D-Tan facial treatment",
+    "duration": 60,
+    "price": 3500,
+    "currency": "INR",
+    "category": "skin",
+    "subCategory": "Facial",
+    "icon": "sparkles",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "skin",
+      "facial"
+    ],
+    "sortOrder": 147,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17a7",
+    "name": "Male",
+    "description": "Head massage for men",
+    "duration": 30,
+    "price": 700,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "head massge",
+    "icon": "scissors",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "head massge"
+    ],
+    "sortOrder": 151,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17ad",
+    "name": "Medium Length",
+    "description": "Deep nourishing spa for medium length hair",
+    "duration": 60,
+    "price": 1600,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "deep nourshing spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "deep nourshing spa"
+    ],
+    "sortOrder": 157,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17af",
+    "name": "Extra Long length",
+    "description": "Deep nourishing spa for extra long length hair",
+    "duration": 75,
+    "price": 2000,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "deep nourshing spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "deep nourshing spa"
+    ],
+    "sortOrder": 159,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.641Z",
+    "updatedAt": "2025-10-24T10:05:35.641Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17b6",
+    "name": "Medium Length",
+    "description": "Premium hair spa for medium length hair",
+    "duration": 75,
+    "price": 2800,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Premium Hair Spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "premium hair spa"
+    ],
+    "sortOrder": 166,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17ba",
+    "name": "Short Length",
+    "description": "Advanced hair spa for short length hair",
+    "duration": 60,
+    "price": 2800,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "adavnace Hair Spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "adavnace hair spa"
+    ],
+    "sortOrder": 170,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17be",
+    "name": "Male",
+    "description": "Hair & scalp treatment for men",
+    "duration": 30,
+    "price": 2500,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair & Scalp Trearment / luxury hair spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair & scalp trearment / luxur"
+    ],
+    "sortOrder": 174,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17c0",
+    "name": "Medium Length",
+    "description": "Hair & scalp treatment for medium length hair",
+    "duration": 90,
+    "price": 3800,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair & Scalp Trearment / luxury hair spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair & scalp trearment / luxur"
+    ],
+    "sortOrder": 176,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.493Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  },
+  {
+    "_id": "68fb4f6f8ca57f6923af17c1",
+    "name": "Long Length",
+    "description": "Hair & scalp treatment for long length hair",
+    "duration": 120,
+    "price": 4200,
+    "currency": "INR",
+    "category": "hair",
+    "subCategory": "Hair & Scalp Trearment / luxury hair spa",
+    "icon": "spa",
+    "isActive": true,
+    "isFeatured": false,
+    "availableAtHome": false,
+    "availableAtSalon": true,
+    "tags": [
+      "hair",
+      "hair & scalp trearment / luxur"
+    ],
+    "sortOrder": 177,
+    "discount": {
+      "percentage": 0,
+      "isActive": false,
+      "validFrom": "2025-10-24T10:05:35.494Z",
+      "validUntil": null
+    },
+    "__v": 0,
+    "createdAt": "2025-10-24T10:05:35.642Z",
+    "updatedAt": "2025-10-24T10:05:35.642Z"
+  }
+]
